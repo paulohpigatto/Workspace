@@ -36,7 +36,6 @@ function draw() {
     noLoop();
   } else{
     if (s.eat(food)) {
-      s.total++;
       s.tail.push(createVector(s.x, s.y));
       pickLocation();
     }
@@ -47,7 +46,7 @@ function draw() {
   fill(255, 0, 100);
   rect(food.x, food.y, scl, scl);
 
-  highscore = s.total > highscore ? s.total : highscore;
+  highscore = s.tail.lenght > highscore ? s.tail.length : highscore;
 }
 
 function keyPressed() {
