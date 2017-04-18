@@ -8,7 +8,7 @@ function Snake() {
   }
 
   this.dir = function(x, y) {
-    if(!((this.speed.x > 0 && x < 0) || (this.speed.y > 0 && y < 0) || (this.speed.x < 0 && x > 0) || (this.speed.y < 0 && y > 0))){
+    if(!((this.speed.x > 0 && x < 0) || (this.speed.y > 0 && y < 0) || (this.speed.x < 0 && x > 0) || (this.speed.y < 0 && y > 0)) || this.tail.length === 0){
       this.speed.x = x;
       this.speed.y = y;
     }
