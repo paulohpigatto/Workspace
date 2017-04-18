@@ -1,7 +1,6 @@
 function Snake() {
   this.position = createVector(0, 0);
   this.speed = createVector(1, 0);
-  this.total = 0;
   this.tail = [];
 
   this.eat = function(pos) {
