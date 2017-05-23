@@ -1,0 +1,241 @@
+*{
+  font-family: "Helvetica";
+  box-sizing:border-box;
+}
+
+body{
+  margin-top:5%;
+}
+
+.redCol{
+  background: #FF0000;
+}
+
+.caption a{
+  color: #9600AF;
+}
+.caption a:hover, .caption a:focus, .caption a:visited{
+  text-decoration: none;
+  color: #9600AF;
+}
+
+.thumbnail:hover{
+  box-shadow: 1px 1px 1px #888888;
+}
+
+#loginButton{
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#login, #pagar, #punishmentAdd, #punishmentDelete, #punishmentChange, #addPunishment, #redeemPrize, #alterLog, #deleteLog,
+#addLog, #submitLog, #alterarSenha{
+  background-color:#9600AF;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sent{
+  background-color:#D2D7DB;
+  color: #191924;
+  border: none;
+  padding: 12px 32px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.sent:hover{
+  color: #191924;
+  text-decoration: none;
+}
+
+#warning, #warningRegister, #warningRefill, #warningRedeem, #warningChanged{
+  font-size:12px;
+  color:red;
+  margin-bottom: 30px;
+  visibility: hidden;
+}
+
+.nav-button{
+  border-left:1px solid #cccccc;
+}
+
+.nav-button #loginButton:hover{
+  /*background: #E7E7E7;*/
+  background: #9600AF;
+  color:white;
+}
+
+#profile{
+  text-align: center;
+  background: #f7f7f7;
+  width:27%;
+  height:100%;
+  position: absolute;
+  right:10px;
+  padding: 5% 0 0 0;
+}
+
+.profile-title{
+  font-size: 16px;
+  margin-top:15px;
+}
+
+.profile-title a, .profile-title a:hover, .profile-title a:active, .profile-title a:visited{
+  text-decoration: none;
+  color:green;
+}
+
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.profile-value{
+  font-size:48px;
+  color: #606060;
+}
+
+.profile-wrapper{
+  width:70%;
+  margin:0 15% 40px 15%;
+  border-bottom: 1px solid #9A9A9C;
+}
+
+#click-prize{
+  font-size: 12px;
+}
+
+#redeemed-prizes{
+  display:none;
+}
+
+#click-prize:hover, #click-prize:focus, #click-prize:visited{
+  color: #606060;
+  text-decoration: none;
+}
+
+hgroup {
+	text-align:center;
+	margin-top: 1.5em;
+}
+
+h1, h3, h4 { font-weight: 200;color: #636363; }
+
+#formRegister{
+  padding: 0;
+  margin-left: 0;
+}
+
+form {
+	width: 380px;
+	margin: 1.5em auto;
+	padding: 3em 2em 2em 2em;
+}
+
+.group {
+	position: relative;
+	margin-bottom: 45px;
+}
+
+input {
+	font-size: 16px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+input:focus { outline: none; }
+
+label {
+	color: #636363;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+input:focus ~ label, input.used ~ label {
+	top: -20px;
+}
+
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+.highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+input:focus ~ .highlight {
+	-webkit-animation: inputHighlighter 0.3s ease;
+	        animation: inputHighlighter 0.3s ease;
+}
+
+.showPunishment{
+  padding:10px 10px 10px 10px;
+  height:40px;
+}
+
+.showPunishment:hover{
+  background: #D3C6E5;
+}
+
+.punishmentName{
+  text-align:center;
+  left:15px;
+  border:1px solid #9A9A9C;
+  height:40px;
+}
+
+.punishmentWeight{
+  width:20%;
+  border:1px solid #9A9A9C;
+  height:40px;
+  text-align:center;
+}
