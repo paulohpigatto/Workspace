@@ -22,45 +22,6 @@
       $("#" + page).addClass("active");
       $('#dynamicDiv').load(page);
     }
-
-    $(document).ready(function(){
-      $('#formLoginVendor').submit(HandleSubmit);
-      function HandleSubmit(e){
-        e.preventDefault();
-
-        $.ajax({
-            type: "POST",
-            url: "authVendor",
-            data: $("#formLoginVendor").serialize(),
-
-            success: function(auth) {
-              if(auth){
-                location.reload();
-              } else{
-                $("#warning").text("Dados incorretos").css("visibility", "visible");
-              }
-            }
-        });
-      };
-      $('#formLogin').submit(HandleSubmit);
-      function HandleSubmit(e){
-        e.preventDefault();
-
-        $.ajax({
-            type: "POST",
-            url: "auth",
-            data: $("#formLogin").serialize(),
-
-            success: function(auth) {
-              if(auth){
-                location.reload();
-              } else{
-                $("#warning").text("Dados incorretos").css("visibility", "visible");
-              }
-            }
-        });
-      };
-    });
   </script>
 </head>
 
@@ -90,7 +51,7 @@
                     <a href="logout"><i class="fa fa-fw fa-power-off"></i> Sair</a>
                 </li>
             </ul>
-            @endif
+          @endif
         </li>
       </ul>
       <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->

@@ -1,11 +1,34 @@
+<script>
+$(document).ready(function(){
+  $('#formLogin').submit(HandleSubmit);
+  function HandleSubmit(e){
+    e.preventDefault();
+
+    $.ajax({
+        type: "POST",
+        url: "auth",
+        data: $("#formLogin").serialize(),
+
+        success: function(auth) {
+          if(auth){
+            location.reload();
+          } else{
+            $("#warning").text("Dados incorretos").css("visibility", "visible");
+          }
+        }
+    });
+  };
+});
+</script>
+
 <div class='col-md-12' style="height:100%;">
   @if(!Auth::user())
-  <form method="post" id="formLoginVendor" style="padding:15% 0 0 0">
+  <form method="post" id="formLogin" style="padding:15% 0 0 0">
     <p id="warning" style="padding-bottom: 5%"></p>
     {{ csrf_field() }}
     <div class="group">
-      <input type="text" name="cnpj" id="cnpj" class="used" maxlength=18 required pattern=".{18,18}" title="O CNPJ tem 18 dígitos"><span class="highlight"></span><span class="bar"></span>
-      <label>CNPJ</label>
+      <input type="text" name="email" class="used" maxlength=70 required pattern=".{10,70}" title="O email tem de 10 a 70 caracteres"><span class="highlight"></span><span class="bar"></span>
+      <label>Email</label>
     </div>
     <div class="group">
       <input type="password" name="password" class="used" maxlength=20 required pattern=".{6,20}" title="A senha tem entre 6 e 20 caracteres"><span class="highlight"></span><span class="bar"></span>
