@@ -11,7 +11,7 @@ $(document).ready(function(){
 
         success: function(auth) {
           if(auth){
-            location.reload();
+            window.location.href = 'compras';
           } else{
             $("#warning").text("Dados incorretos").css("visibility", "visible");
           }
