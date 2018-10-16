@@ -1,0 +1,246 @@
+{
+  "accounts": [
+    {
+      "id": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "playerName": "core"
+    },
+    {
+      "id": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "playerName": "pigatto"
+    },
+    {
+      "id": "45b574d6b3b0f613af1f59145d8d77659c102390bfc3f8fd3f0672999f60cb3f",
+      "playerName": "null"
+    },
+    {
+      "id": "edabd168431bacb7b0a1f585e6810d4e86a982656c26471a4ac78cc142a9fbe1",
+      "playerName": "pigato"
+    }
+  ],
+  "payments": [
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 3,
+      "convertedAmount": 0.003
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 3,
+      "convertedAmount": 0.003
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 3,
+      "convertedAmount": 0.003
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 1,
+      "convertedAmount": 0.001
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 1,
+      "convertedAmount": 0.001
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 10,
+      "convertedAmount": 0.01
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 10,
+      "convertedAmount": 0.01
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 1,
+      "convertedAmount": 0.001
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 1,
+      "convertedAmount": 0.001
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "edabd168431bacb7b0a1f585e6810d4e86a982656c26471a4ac78cc142a9fbe1",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 2,
+      "convertedAmount": 0.002
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "edabd168431bacb7b0a1f585e6810d4e86a982656c26471a4ac78cc142a9fbe1",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 2,
+      "convertedAmount": 0.002
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "45b574d6b3b0f613af1f59145d8d77659c102390bfc3f8fd3f0672999f60cb3f",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "45b574d6b3b0f613af1f59145d8d77659c102390bfc3f8fd3f0672999f60cb3f",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "45b574d6b3b0f613af1f59145d8d77659c102390bfc3f8fd3f0672999f60cb3f",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 5,
+      "convertedAmount": 0.005
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 5,
+      "convertedAmount": 0.005
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 11,
+      "convertedAmount": 0.011
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 11,
+      "convertedAmount": 0.011
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    },
+    {
+      "from": "873930af5e454a6cc98c10e4b4578c4c6cb2d940b05359d5df48434325f714c1",
+      "to": "f0f06c512f86bd9c05c29e10777fbb581f54057d27c7b21e5b1ff29932e60e31",
+      "asset": "9e8a0baff7f4ecf4a7a0e6021d530f079612e6855baf8d330709772d0af83abb",
+      "score": 0,
+      "convertedAmount": 0
+    }
+  ]
+}
